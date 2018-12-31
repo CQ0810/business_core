@@ -3,27 +3,35 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.tio</groupId>
-    <artifactId>tds-base-framework</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
-
-    <name>tds-base-framework</name>
-    <description>TDS Base Framework</description>
-
     <parent>
         <groupId>com.tio</groupId>
-        <artifactId>springboot-integration</artifactId>
+        <artifactId>business-parent</artifactId>
         <version>1.0.0.RELEASE</version>
-        <relativePath>../pom.xml</relativePath>
     </parent>
 
+    <groupId>com.tio</groupId>
+    <artifactId>business-core</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>business-core</name>
+    <description>Framework Core</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.tio</groupId>
+            <artifactId>business-project</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+    </dependencies>
+
     <build>
-        <finalName>blm-start</finalName>
+        <finalName>business-project</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <classifier>exec</classifier>
+                </configuration>
             </plugin>
         </plugins>
     </build>
