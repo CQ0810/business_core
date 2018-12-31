@@ -63,7 +63,7 @@ public class UserController {
         //Map<String, Object> captcha = captchaService.getCaptcha();
         /*List<SPermissions> permissions = SPermissionsService.getPermissionTree();
         System.out.println(permissions);*/
-        userService.list();
+        //userService.list();
         return "aaaa";
     }
 

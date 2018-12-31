@@ -16,15 +16,15 @@
     <description>Framework Core</description>
 
     <dependencies>
-        <dependency>
+        <!--<dependency>
             <groupId>com.tio</groupId>
             <artifactId>business-project</artifactId>
             <scope>runtime</scope>
-        </dependency>
+        </dependency>-->
     </dependencies>
 
     <build>
-        <finalName>business-project</finalName>
+        <finalName>business-core</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

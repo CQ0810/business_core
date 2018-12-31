@@ -15,6 +15,6 @@ public class TestServiceImpl implements TestService {
 
     @Override
     public String test() {
-        return "hello";
+        return "hello XXXXX LLLLL";
     }
 }
