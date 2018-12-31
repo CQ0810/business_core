@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.sys.dao.SPermissionsDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.tio.app.sys.entities.SPermissions" id="sPermissionsMap">
+        <result property="id" column="id"/>
+        <result property="sPermissionModuleId" column="s_permission_module_id"/>
+        <result property="name" column="name"/>
+        <result property="guardName" column="guard_name"/>
+        <result property="showName" column="show_name"/>
+        <result property="url" column="url"/>
+        <result property="type" column="type"/>
+        <result property="status" column="status"/>
+        <result property="seq" column="seq"/>
+        <result property="remark" column="remark"/>
+        <result property="createdAt" column="created_at"/>
+        <result property="updatedAt" column="updated_at"/>
+    </resultMap>
+
+
+</mapper>

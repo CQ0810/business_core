@@ -1,0 +1,21 @@
+netease:
+  #网易云分配的账号
+  secretId: d609015fc663c3ef802ee69114b7c50e
+  #私钥
+  secretKey: 2178eeaf8970fb46bf4ccd5671e6b691
+  #验证码
+  bussinessId: e69cfeffd5d14c76868f9f3e6e06de53
+  #通知类短信
+  informUrl: 47cb86cec97e4d9685638743631bd814
+  #运营类短信
+  opertingClass: 2dd830c8fca642baa7508aeeb133bd9c
+  #短信接口地址
+  apiUrl: https://sms.dun.163yun.com/v2/sendsms
+  #模板ID
+  templateId: 10099
+  #短信参数(签名):
+  params: VRPlay=&code=
+  #验证码长度
+  codeLen: 6
+  #当前版本
+  version: v2

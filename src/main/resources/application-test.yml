@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.56.109/test?useUnicode=true&characterEncoding=UTF-8&useSSL=true
+    username: macro
+    password: macro@123
+    driver-class-name: com.mysql.jdbc.Driver

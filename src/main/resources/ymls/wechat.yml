@@ -1,0 +1,18 @@
+wechat:
+  #开发者ID(AppID)
+  appId: wxf0d7dae34ced5703
+  #开发者密码(AppSecret)                       
+  appSecret: 9f6f45f35e3675f9fbf314fbe071a2ed
+  #商户号   
+  mchId: 1518940881
+  #商户密钥                            
+  mchKey: 2QAZEJDJAMCM7G4E3F5V3YMM7C1YHVSR
+  #证书地址      
+  keyPath:
+  #回调地址                 
+  notifyUrl:
+  #证书位置
+  certLocalPath:
+  #证书根路径
+  certRootPath:
+  
